@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/side_back"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.ruben.processdashapp.listProjects">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp">
+        <TextView
+            android:id="@+id/tituloListas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Lista de Proyectos"
+            android:textSize="30sp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="10dp"/>
+
+        <ListView
+            android:id="@+id/listViewProjects"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tituloListas"
+            android:layout_marginTop="12dp" />
+    </RelativeLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/newProjectFloat"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:tint="@android:color/background_light"
+        app:backgroundTint="#23a769"
+        app:srcCompat="@drawable/new_count_circle" />
+
+
+</FrameLayout>

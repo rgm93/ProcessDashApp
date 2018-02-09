@@ -1,0 +1,62 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/side_back"
+    tools:context="com.example.ruben.processdashapp.newProject">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_above="@+id/inputNameProject"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="14dp"
+            android:background="@drawable/white_book_hd" />
+
+        <EditText
+            android:id="@+id/inputNameProject"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/inputTimeEstimated"
+            android:layout_alignStart="@+id/inputTimeEstimated"
+            android:layout_marginBottom="15dp"
+            android:drawableLeft="@drawable/name_project"
+            android:hint="  Nombre del Proyecto"
+            android:textColorHint="#060606"
+            android:inputType="text"
+            android:text=""/>
+
+        <EditText
+            android:id="@+id/inputTimeEstimated"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttonNewProcess"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="35dp"
+            android:layout_row="2"
+            android:drawableLeft="@drawable/timer"
+            android:hint="  Tiempo Estimado"
+            android:textColorHint="#020202"
+            android:inputType="time"
+            android:text=""/>
+
+        <Button
+            android:id="@+id/buttonNewProcess"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_column="0"
+            android:layout_marginBottom="44dp"
+            android:layout_row="3"
+            android:backgroundTint="#ffffff"
+            android:background="@drawable/boton_redondo"
+            android:text="Comenzar"
+            android:textColor="#151515"/>
+    </RelativeLayout>
+</FrameLayout>

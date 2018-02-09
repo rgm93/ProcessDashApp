@@ -1,0 +1,156 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/side_back"
+    tools:context="com.example.ruben.processdashapp.ProcessCounter">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100dp">
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:scrollbarStyle="outsideInset"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:textColor="@color/colorPrimary"/>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginTop="80dp">
+
+                <Chronometer
+                    android:id="@+id/cronometro"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="top|center"
+                    android:background="#e1bdffda" />
+
+                <Chronometer
+                    android:id="@+id/cronometro2"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="top|center"
+                    android:background="#e1ddff47"
+                    android:visibility="invisible"/>
+
+                <Chronometer
+                    android:id="@+id/cronometro3"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="top|center"
+                    android:background="#dc00a6ff"
+                    android:visibility="invisible"/>
+
+                <Chronometer
+                    android:id="@+id/cronometro4"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="top|center"
+                    android:background="#e1b260f9"
+                    android:visibility="invisible"/>
+
+                <Chronometer
+                    android:id="@+id/cronometro5"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="top|center"
+                    android:background="#e1ff7fd0"
+                    android:visibility="invisible"/>
+
+                <Chronometer
+                    android:id="@+id/cronometro6"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="top|center"
+                    android:background="#e1fd7b01"
+                    android:visibility="invisible"/>
+
+                <Button
+                    android:id="@+id/buttonStart"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_column="0"
+                    android:layout_marginTop="20dp"
+                    android:layout_row="2"
+                    android:text="INICIAR"
+                    android:background="@drawable/boton_redondo_2"/>
+                <Button
+                    android:id="@+id/buttonStop"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_column="0"
+                    android:layout_row="3"
+                    android:layout_marginTop="10dp"
+                    android:text="PAUSAR"
+                    android:background="@drawable/boton_redondo_3"/>
+
+                <Button
+                    android:id="@+id/buttonError"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_column="0"
+                    android:layout_row="4"
+                    android:layout_marginTop="10dp"
+                    android:text="REGISTRAR ERROR"
+                    android:background="@drawable/boton_redondo_5"/>
+                <Button
+                    android:id="@+id/buttonFinish"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_column="0"
+                    android:layout_row="5"
+                    android:layout_marginTop="10dp"
+                    android:text="FINALIZAR FASE"
+                    android:background="@drawable/boton_redondo_4"/>
+
+            </GridLayout>
+        </GridLayout>
+    </RelativeLayout>
+
+</FrameLayout>

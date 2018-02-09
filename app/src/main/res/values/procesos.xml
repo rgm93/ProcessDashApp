@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lista_procesos">
+        <item> Planning </item>
+        <item> Design </item>
+        <item> Code </item>
+        <item> Compile </item>
+        <item> Test </item>
+    </string-array>
+</resources>

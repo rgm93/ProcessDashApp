@@ -1,0 +1,275 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ruben.processdashapp.ProjectSelected"
+    android:background="@drawable/side_back">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp">
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="30dp">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:layout_row="3"
+                android:columnCount="3"
+                android:rowCount="5">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_row="0"
+                    android:text="Tiempo Estimado:"
+                    android:textAlignment="center"
+                    android:textColor="#8dff23"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/timeEstimated"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_row="0"
+                    android:text="Tiempo"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_row="1"
+                    android:text="Tiempo Real:"
+                    android:textAlignment="center"
+                    android:textColor="#71ffee"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/timeReal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_row="1"
+                    android:text="Tiempo"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_row="2"
+                    android:text="Planning:"
+                    android:textAlignment="center"
+                    android:textColor="#ffff15"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/planningTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginLeft="-110dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_row="2"
+                    android:text="Tiempo"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_row="2"
+                    android:text="Design:"
+                    android:textAlignment="center"
+                    android:textColor="#1fffd1"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/designTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_row="2"
+                    android:text="Tiempo"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_row="3"
+                    android:text="Code:"
+                    android:textAlignment="center"
+                    android:textColor="#d7d7d7"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/codeTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginLeft="-110dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_row="3"
+                    android:text="Tiempo"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_row="3"
+                    android:text="Compile:"
+                    android:textAlignment="center"
+                    android:textColor="#ca7cff"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/compileTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_row="3"
+                    android:text="Tiempo"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_row="4"
+                    android:text="Test:"
+                    android:textAlignment="center"
+                    android:textColor="#ff5ca4"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/testTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginLeft="-110dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_row="4"
+                    android:text="Tiempo"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_row="4"
+                    android:text="PostMort:"
+                    android:textAlignment="center"
+                    android:textColor="#5e6bff"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/postmortemTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_row="4"
+                    android:text="Tiempo"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp" />
+            </GridLayout>
+
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/gridLayout"
+            android:layout_marginTop="-80dp">
+
+            <TextView
+                android:id="@+id/errName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lista de Errores"
+                android:textAlignment="center"
+                android:textColor="#ffff00"
+                android:textSize="25sp" />
+
+            <ExpandableListView
+                android:id="@+id/listaExpansibleErrores"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/errName"
+                android:layout_marginTop="-20dp"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:textColor="#ffffff"
+                android:childDivider="#313131"
+                android:divider="#000000"
+                android:dividerHeight="1dp"
+                android:listSelector="#90fcc1"
+                android:padding="30dp" />
+        </GridLayout>
+
+        <Button
+            android:id="@+id/buttonPie"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="Ver gráfica"
+            android:background="@drawable/boton_redondo_4"/>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

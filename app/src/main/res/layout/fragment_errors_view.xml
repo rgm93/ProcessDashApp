@@ -1,0 +1,125 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/side_nav_bar">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_row="3"
+                android:layout_column="1"
+                android:rowCount="5"
+                android:columnCount="3">
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/type"
+                    android:text="Tipo"
+                    android:textSize="15sp"
+                    android:textColor="#ffffff"
+                    android:textAlignment="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="13dp"
+                    android:layout_row="0"/>
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/type2"
+                    android:text="Tipo"
+                    android:textSize="15sp"
+                    android:textColor="#ffffff"
+                    android:textAlignment="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="13dp"
+                    android:layout_row="0"/>
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/date"
+                    android:text="Fecha"
+                    android:textSize="15sp"
+                    android:textColor="#ffffff"
+                    android:textAlignment="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_row="1"
+                    android:layout_column="0"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/date2"
+                    android:text="Fecha"
+                    android:textSize="15sp"
+                    android:textColor="#ffffff"
+                    android:textAlignment="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_row="1"/>
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/errTime"
+                    android:text="Tiempo Arreglo"
+                    android:textSize="15sp"
+                    android:textColor="#ffffff"
+                    android:textAlignment="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_row="2"
+                    android:layout_column="0"/>
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/errTime2"
+                    android:text="Tiempo Arreglo"
+                    android:textSize="15sp"
+                    android:textColor="#ffffff"
+                    android:textAlignment="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_row="2"/>
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/description"
+                    android:text="Descripción"
+                    android:textSize="15sp"
+                    android:textColor="#ffffff"
+                    android:textAlignment="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_row="3"
+                    android:layout_column="0"/>
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/description2"
+                    android:text="Descripcion"
+                    android:textSize="15sp"
+                    android:textColor="#ffffff"
+                    android:textAlignment="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_row="3"/>
+
+            </GridLayout>
+        </GridLayout>
+    </RelativeLayout>
+</FrameLayout>

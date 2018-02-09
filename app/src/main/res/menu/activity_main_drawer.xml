@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/listProjects"
+            android:icon="@drawable/list_proyects"
+            android:title=" Lista de Proyectos " />
+        <item
+            android:id="@+id/newProject"
+            android:icon="@drawable/white_book_hd"
+            android:title="Nuevo Proyecto" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/configuracion"
+                android:icon="@drawable/ic_settings"
+                android:title="Configuracion" />
+            <item
+                android:id="@+id/cerrar_sesion"
+                android:icon="@drawable/ic_account_box"
+                android:title="Cerrar Sesión" />
+        </menu>
+    </item>
+
+</menu>
