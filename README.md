@@ -1,3 +1,5 @@
+# ProcessDashApp
+
 Aplicación Android que simula el proceso de la metodología SCRUM para la medición de la duración de las distintas fases en un proyecto software a través de iteraciones.
 
 El proyecto contendrá un listado de proyectos los cuales se irán añadiendo una vez se creen. Para ello será necesario añadirle un nombre y un tiempo de desarrollo 'estimado' para luego compararlo con los resultados reales obtenidos. En un proyecto se podrán añadir de 1 a varias iteraciones, y cada una de ellas contendrán las distintas fases que podrá pasar el proyecto, siendo posible elegir 1, varias o todas las existentes. 
