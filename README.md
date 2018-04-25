@@ -9,3 +9,8 @@ Una vez que se eligen las fases a tratar en una iteración, se podrá iniciar un
 Tras acabar con una fase, se podrá finalizar dicha fase para ir decrementando el conjunto de fases pendientes en una iteración, y cuando no existan más fases a tratar, la iteración ha acabado y por tanto, no podrá ser modificada. Se podrá añadir más iteraciones para elegir otras fases o, incluso, fases ya realizadas en iteraciones anteriores. 
 
 Una vez que se considere un número de iteraciones relevante y que se termine de realizar el proyecto llevado a cabo, podremos finalizar el proyecto para poder ver de manera global todos los datos recogidos. En dicho proyecto se verá reflejado la media de todos los tiempos de todas las fases de todas las iteraciones realizadas, y se podrá comparar con la estimada al inicio del proyecto. Se podrá ver una lista con todos los errores recogidos en cada una de las fases de cada una de las iteraciones, y se podrá observar una gráfica PieChart para poder realizar una comparación más visual.
+
+
+Demo de la app ProcessDashApp en funcionamiento
+
+https://www.youtube.com/watch?v=GueK_AVW_NU
