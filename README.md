@@ -10,6 +10,9 @@ Tras acabar con una fase, se podrá finalizar dicha fase para ir decrementando e
 
 Una vez que se considere un número de iteraciones relevante y que se termine de realizar el proyecto llevado a cabo, podremos finalizar el proyecto para poder ver de manera global todos los datos recogidos. En dicho proyecto se verá reflejado la media de todos los tiempos de todas las fases de todas las iteraciones realizadas, y se podrá comparar con la estimada al inicio del proyecto. Se podrá ver una lista con todos los errores recogidos en cada una de las fases de cada una de las iteraciones, y se podrá observar una gráfica PieChart para poder realizar una comparación más visual.
 
+Presentación de la app ProcessDashApp en formato PDF
+
+https://drive.google.com/file/d/1A-SjktNDA_SnF4E4c7F5uHLn2JLiXQeB/view?usp=sharing
 
 Demo de la app ProcessDashApp en funcionamiento
 
